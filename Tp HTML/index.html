@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer tp</title>
+    <style>
+        table, th, td { border: 1px solid black; }
+    </style>
+</head>
+<body>
+
+    <header> 
+        <h1>Encabezado de la Página</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#estructura">Ir a Estructura</a></li>
+            <li><a href="#multimedia">Ir a Multimedia</a></li>
+            <li><a href="#formularios">Ir a Formulario</a></li>
+        </ul>
+    </nav>
+
+    <main> <!-- Define el contenido principal de la página -->
+
+        <section>
+            <h2 id="estructura">1. Estructura Básica del Documento HTML</h2>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+        </section>
+
+        <article>
+            <h2>Articulo 1 de la pagina</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia, aperiam tenetur ipsa alias officiis odit doloremque ipsum totam harum beatae, delectus impedit illo? Id esse reiciendis quidem provident possimus.</p>
+        </article>
+
+        <section>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <h3><em>Esto es un h3 en cursiva</em></h3>
+            <h4><u>Esto es un h4 subrayado</u></h4>
+            <h5><mark>Esto es un h5 en mark</mark></h5>
+            <h6><strong>Esto es un h6 en strong</strong></h6>    
+        </section>
+
+        <section>
+            <h2>3. Divisiones y Agrupación de Contenido</h2>
+            <section>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupado en un div.</p>
+            </section>
+
+            <section>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupado en un div.</p>
+            </section>
+        </section>
+
+        <article>
+            <h2>Articulo 3 de la pagina</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus officia, aperiam tenetur ipsa alias officiis odit doloremque ipsum totam harum beatae, delectus impedit illo? Id esse reiciendis quidem provident possimus.</p>
+        </article>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <p>Visita nuestro <a href="https://www.youtube.com/" target="_blank">sitio web</a> para más información.</p>
+            <section>
+                <h3>Lista Desordenada:</h3>
+                <ul>
+                    <li>Primer ítem de la lista desordenada</li>
+                    <li>Segundo ítem de la lista desordenada</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Lista Ordenada:</h3>
+                <ol>
+                    <li>Primer ítem de la lista ordenada</li>
+                    <li>Segundo ítem de la lista ordenada</li>
+                </ol>
+            </section>
+        </section>
+
+        <section>
+            <h2 id="multimedia">5. Elementos Multimedia</h2>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" 
+                width="200px" height="200px"
+                alt="Es una Imagen">
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+                width="400px"
+                height="400px"
+                controls>
+            </video>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><b>Columna 1</b></th>
+                        <th><b>Columna 2</b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="formularios">7. Formularios</h2>
+            <form>
+                <label for="name">Nombre</label>
+                <input id="name" type="text" placeholder="Ingrese su nombre">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="example@exmaple.com">
+                <label for="message">Mensaje</label>
+                <textarea id="message" placeholder="Escriba un mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <aside><!-- Se utiliza para barras laterales o contenido adicional -->
+        <p><strong>Contenido adicional:</strong>Esta es la etiqueta aside de la pagina</p> 
+    </aside>
+
+    <footer><!-- Se establece el pie de página -->
+        <p>Pie de pagina</p>
+    </footer>
+
+</body>
+</html>
