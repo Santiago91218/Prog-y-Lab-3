@@ -1,0 +1,156 @@
+header{
+    background-color: grey;
+    padding: 10px;
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+}
+
+section{
+    background-color:rgb(245, 245, 245);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 24px;
+}
+
+
+
+.text-1{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.blockquote-1{
+    background-color:rgb(196, 194, 194);
+    padding: 8px;
+    border-left: #919191 solid 5px;
+}
+
+
+
+.caja-1{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 5px 3px grey;
+    border-radius: 10px;
+}
+
+.caja-1 p{
+    margin-left: 10px;
+}
+
+.caja-2{
+    background-color: rgb(231, 190, 87);
+    padding: 5px;
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 5px 2px grey;
+    border-radius: 10px;
+}
+
+.caja-2 p{
+    margin-left: 10px;
+}
+
+
+
+.relativa{
+    background-color: rgb(165, 225, 245);
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 5px;
+    left: 10px;
+}
+
+.relativa p{
+    color: black;
+    margin-left: 10px;
+}
+
+.absoluta{
+    background-color: rgb(60, 196, 173);
+    padding: 3px;
+    position: absolute;
+    left: 64rem;
+    top: 2rem;
+    border-radius: 5px;
+}
+
+.absoluta p{
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 768px){
+    body{
+        background-color: rgb(198, 165, 228);
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+
+    section {
+        width: 90%; 
+        padding: 5px; 
+    }
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+}
+
+.grid-item{
+    background-color: rgb(108, 108, 230);
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.animacion{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    transition: 1s;
+}
+
+.animacion:hover{
+    background-color: orange;
+}
+
+.mover{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: mover 1.5s infinite;
+}
+
+@keyframes mover {
+    0%{
+        transform:translate(0);
+    }
+    100%{
+        transform:translateX(120px);
+    }
+}
