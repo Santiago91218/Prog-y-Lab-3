@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Practico JS</title>
+  </head>
+  <body>
+    <!-- Punto 7, Ejercicio 1 y 2 -->
+    <section>
+      <h2>Punto 7</h2>
+      <h3>Ejercicio 1: Cambiar texto a azul</h3>
+      <p class="text">Este es el primer parrafo</p>
+      <p class="text">Este es el segundo parrafo</p>
+      <p class="text">Este es el tercer parrafo</p>
+      <button id="buttonBlue">Cambiar color a azul</button>
+
+      <h3>Ejercicio 2: Formulario con alerta</h3>
+      <form>
+        <label>Ingresa un texto:</label>
+        <input id="mensaje__ingresado"  type="text">
+        <button id="buttonAlert">Mostrar Alerta</button>
+      </form>
+    </section>
+    
+    <!--Punto 8, Ejercicio 1 y 2 -->
+    <section>
+      <h2>Punto 8</h2>
+      <h3>Ejercicio 1: Lista con elementos</h3>
+      <ul>
+        <li class="elemento">Elemento 1</li>
+        <li class="elemento">Elemento 2</li>
+        <li class="elemento">Elemento 3</li>
+        <li class="elemento">Elemento 4</li>
+      </ul>
+
+      <h3>Ejercicio 2: Campo de texto y botones</h3>
+      <input id="campoText" type="text" placeholder="Ingresa algo">
+      <button id="buttonDeshabilitar">Deshabilitar Campo</button>
+      <button id="buttonHabilitar">Habilitar Campo</button> 
+    </section>
+     
+   <!--Punto 9 Ejercicio 1-->
+   <section>
+    <h2>Punto 9</h2>
+    <form id="formulario">
+      <label>Correo Electronico:</label>
+      <input id="text" type="email" required>
+      <button type="submit" id="buttonGuardar">Guardar Correo</button>
+    </form>
+    <div id="mensaje"></div>
+    <button id="buttonEliminar">Eliminar Correo Guardado</button>
+   </section>
+  </body>
+  <script type="module" src="/main.js"></script>
+</html>
