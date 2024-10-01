@@ -1,0 +1,41 @@
+.containerLogin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(231, 231, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 231, 231, 1) 18%,
+    rgb(192, 192, 192) 55%,
+    rgb(155, 155, 155) 88%,
+    rgb(143, 143, 143) 100%
+  );
+}
+
+.containerForm {
+  background-color: transparent;
+  border: 3px solid rgb(59, 59, 59);
+  width: 20%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  border-radius: 0.5rem;
+  gap: 2vh;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.formulario button {
+  margin-top: 1rem;
+}
